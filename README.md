@@ -1,33 +1,34 @@
-# TEMPLATE GENERAL
+# Algorithm and Design
 
-## Introduction
-Please look for other README.md file if you are intereted any specific languages, then delete all the other README.md file 
-and rename it to README.md . Introduce the project scope and purpose. You can also keep this private and organize this GitHub as a private libary for yourself.
+## Introduction:
+Algorithm and design(SDF)
+- Concept and properties of algorithms,
+- Role of algorithms,
+- Problem-solving strategies,
+- Separation of behavior and implementation
 
+Software development Fundamental (SDF)
 
-## Documents/Research Paper
-Link your research paper <a href="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/documents/resarch-sample.pdf">here</a> if you need
+### Algorithm
+- a well-defined procedure
+- a sequence of unambiguous instructions 
+- for solving a well-specified computational problem
+- for obtaining a desired, required output 
+- from any given legitimate input 
+- in a finite amount of time.
 
-## Technology
-List of technology
+### Logical methods of checking correctness of an algorithm with respect to its input and output.
+- Testing
+- Correctness proof
+- Confidence in algorithms from testing and correctness proof
+- Correctness of recursive algorithms: prove directly by induction
+- Correctness of iterative algorithms:   prove using loop invariants and induction
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-What things you need to install the software and how to install them
-
-### Installing
-A step by step series of examples that tell you how to get a development enviroment running
-
-## Running the tests
-Explain how to run the automated tests for this system:
-
-## Deployment
-How to deploy the app
-
-## Built With
-* Tools?
+## Solutions:
+- Divide and Conquer
+  - Break problem into sub-problems
+  - Solve each of the sub-problem
+  - Combine the solution to obtain the solution to the original problem
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.

@@ -30,25 +30,12 @@ Software development Fundamental (SDF)
   - Solve each of the sub-problem
   - Combine the solution to obtain the solution to the original problem
 
-## 
+## Convex Hull problem:
+- Convex-Hull problems is a polygon that contain all the point:
+  - Graham Scan O(nlogn)
+  - Jarvis March O(nh)
+- [Convex Hull Algorithm Presentation](https://www.youtube.com/watch?v=VP9ylElm1yY&t=12s)
 
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](). 
-
-## Authors
-* **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
-
-## Format
-my README.md format was retrieved from
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-* Any acknowledgments go here
+## Merge Sort:
+- [video of implement merge sort](https://www.youtube.com/watch?v=KF2j-9iSf4Q&t=509s)
+- For the Mergesort algorithm, we can show that T(n) = Θ(n log2 n). It is outperforms insertion sort with running time is Θ(n2)

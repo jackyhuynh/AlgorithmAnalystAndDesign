@@ -1,41 +1,72 @@
 # Algorithm and Design
 
-## Introduction:
-Algorithm and design(SDF)
-- Concept and properties of algorithms,
-- Role of algorithms,
-- Problem-solving strategies,
-- Separation of behavior and implementation
+## Introduction
 
-Software development Fundamental (SDF)
+This repository covers essential concepts related to algorithms and software design fundamentals (SDF), focusing on:
 
-### Algorithm
-- a well-defined procedure
-- a sequence of unambiguous instructions 
-- for solving a well-specified computational problem
-- for obtaining a desired, required output 
-- from any given legitimate input 
-- in a finite amount of time.
+- **Concepts and properties of algorithms**
+- **The role of algorithms in problem-solving**
+- **Key problem-solving strategies**
+- **Separation of behavior and implementation**
 
-### Logical methods of checking correctness of an algorithm with respect to its input and output.
-- Testing
-- Correctness proof
-- Confidence in algorithms from testing and correctness proof
-- Correctness of recursive algorithms: prove directly by induction
-- Correctness of iterative algorithms:   prove using loop invariants and induction
+### Algorithm Definition
 
-## Solutions:
-- Divide and Conquer
-  - Break problem into sub-problems
-  - Solve each of the sub-problem
-  - Combine the solution to obtain the solution to the original problem
+An **algorithm** is:
+- A well-defined procedure that follows a sequence of unambiguous instructions.
+- Used for solving a specific computational problem.
+- Designed to obtain the desired output from any valid input.
+- Guaranteed to complete in a finite amount of time.
 
-## Convex Hull problem:
-- Convex-Hull problems is a polygon that contain all the point:
-  - Graham Scan O(nlogn)
-  - Jarvis March O(nh)
-- [Convex Hull Algorithm Presentation](https://www.youtube.com/watch?v=VP9ylElm1yY&t=12s)
+### Verifying Algorithm Correctness
 
-## Merge Sort:
-- [video of implement merge sort](https://www.youtube.com/watch?v=KF2j-9iSf4Q&t=509s)
-- For the Mergesort algorithm, we can show that T(n) = Θ(n log2 n). It is outperforms insertion sort with running time is Θ(n2)
+To ensure that an algorithm functions correctly, we can apply the following methods:
+
+1. **Testing**:
+   - Running the algorithm on various test cases to validate outputs.
+   
+2. **Correctness Proof**:
+   - Formal proof to establish that the algorithm works as intended for all inputs.
+
+3. **Confidence in Algorithms**:
+   - Build confidence through rigorous testing and correctness proofs.
+
+4. **Recursive Algorithms**:
+   - Correctness is often demonstrated using **induction**.
+
+5. **Iterative Algorithms**:
+   - Prove correctness through **loop invariants** and **induction**.
+
+---
+
+## Problem-Solving Strategies
+
+### Divide and Conquer
+
+This strategy involves:
+1. **Breaking the problem into smaller sub-problems**.
+2. **Solving each sub-problem independently**.
+3. **Combining the solutions** to solve the original problem.
+
+---
+
+## Convex Hull Problem
+
+A **Convex Hull** is the smallest polygon that encloses all given points. Common algorithms used to solve the convex hull problem include:
+
+- **Graham Scan** – Time Complexity: **O(n log n)**
+- **Jarvis March** – Time Complexity: **O(nh)**
+
+---
+
+## Merge Sort
+
+Merge Sort is a classic divide-and-conquer algorithm with the following properties:
+
+- **Time Complexity**: **T(n) = Θ(n log n)**
+- It outperforms simpler algorithms like **insertion sort** (which has a time complexity of **Θ(n²)**).
+
+---
+
+## Conclusion
+
+This repository provides a foundation in algorithms and design, offering insights into algorithm efficiency, problem-solving techniques, and correctness proofs. Stay tuned for more advanced topics in future updates.
